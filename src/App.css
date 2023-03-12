@@ -1,0 +1,37 @@
+.container{
+text-align: center;
+}
+input{
+  width: 400px;
+  padding: 10px;
+}
+button{
+  margin: 10px;
+  padding: 10px;
+  background-color:rgb(48, 93, 2);
+  color: white;
+  border: none;
+  border-radius:20px;
+}
+button:hover{
+  background-color: lightgreen;
+  color: #000;
+}
+ul li{
+  align-items: center;
+  padding: 10px;
+  margin-left: 30%;
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border-bottom: 1px solid lightgray;
+  width:400px;
+  list-style-type: none;
+}
+.delButton{
+  background-color: red;
+  margin-left:35%;
+}
+.delButton:hover{
+  color: white;
+  background-color: rgb(160, 86, 86);
+}
