@@ -6,7 +6,7 @@
   }
   
   html,body{
-    background-color: #e7e7e7;
+    background-color:lightpink;
   }
   
   .wrapper{
@@ -47,15 +47,14 @@
   }
   
   .form-and-todo-box .input-and-button .button{
-    width: 8%;
+    width: 10%;
     height: 100%;
-    background-color: #f92c0f;
+    background-color:skyblue;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top:-1px;
+    /* margin-top:-1px; */
   }
-  
   .form-and-todo-box .input-and-button .button.edit{
     width: auto;
     padding: 0px 10px;
@@ -64,9 +63,9 @@
   .form-and-todo-box .input-and-button .button button{
     outline: none;
     cursor: pointer;
-    border: 2px solid #f92c0f;
+    border: 2px solid skyblue;
     background-color: transparent;
-    color: #fff;
+    color:#000;
   }
   
   .todo{
@@ -96,4 +95,11 @@
   .delete-all{
     padding: 10px;
     cursor: pointer;
+    background-color: rgb(105, 105, 239);
+    border: none;
+    color:#fff;
+    border-radius: 5px;
+  }
+  .delete-all:hover{
+    background-color:navy
   }
